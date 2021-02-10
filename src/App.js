@@ -19,9 +19,9 @@ class App extends Component {
     invalidlogin: "none",
   };
   login = () => {
-    if (this.state.username === "John" && this.state.password === 12345) {
+    if (this.state.username === "John" && this.state.password === "12345") {
       this.setState({ lineChart: true, display: "none",username: "",password: "", invalidlogin: "none" });
-    } else if (this.state.username === "Micky" && this.state.password === 98765) {
+    } else if (this.state.username === "Micky" && this.state.password === "98765") {
       this.setState({ pie: true, display: "none", username: "", invalidlogin: "none",      password: "",});
     } else {
       this.setState({ invalidlogin: "block" });
