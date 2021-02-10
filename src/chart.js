@@ -52,7 +52,7 @@ class LineChart extends Component {
   };
 
   render() {
-    const { chartOptions, hoverData } = this.state;
+    const { chartOptions } = this.state;
 
     return (
       <div>

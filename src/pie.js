@@ -44,7 +44,7 @@ class Pie extends Component {
      }
 
     render() { 
-      const { chartOptions, hoverData } = this.state;
+      const { chartOptions } = this.state;
         return (  <div>
           <div className="header">
           <h1>Welocome Mickey</h1>
